@@ -1,14 +1,18 @@
 {
-  "name": "node",
+  "name": "nodejs-basics",
   "version": "1.0.0",
-  "description": "node",
+  "description": "nodejs tutorial package",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Leonti",
+  "keywords": [
+    "node.js",
+    "js"
+  ],
+  "author": "Max",
   "license": "ISC",
-  "dependencies": {
-    "node": "^19.1.0"
+  "devDependencies": {
+    "nodemon": "^1.18.11"
   }
 }
